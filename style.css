@@ -1,0 +1,147 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/*file index*/
+.anh {
+    margin-bottom: 20px;
+}
+
+
+p.tenkh {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    color: #50ad4e;
+}
+body{
+	background: #F4F4F4;
+}
+.avatar{
+	margin-bottom: 20px;
+}
+.avatar img{
+	border: 4px solid #26b815;
+    border-radius: 50%;
+}
+.ten{
+	background: green;
+	clear: both;
+}
+.ten p{
+	margin: 0;
+	padding: 10px;
+	font-family: Tahoma;
+    font-size: 13pt;
+    font-weight: bold;
+    color: #fff;
+}
+.thongtin{
+	background-color:#e5e3e3;
+}
+.thongtin ul li{
+	list-style:none;
+}
+.thongtin ul li a{
+	color:#17aa1c;
+    font-size:18px;
+    padding:5px 10px 5px 10px;
+    display: block;
+}
+.thongtin ul li a:hover{
+	color:#fff;
+    background-color:#5589b6;
+	text-decoration: none;
+}
+.tieude{
+	text-align: center;
+    font-size: 25px;
+    background-color: #cfcfcf;
+}
+.text{
+	color: forestgreen;
+    font-style: italic;
+}
+.ttkh{
+	text-align: center;
+}
+.box {
+	overflow: hidden;
+  transition: box-shadow .3s;  
+}
+.box:hover {
+  box-shadow: 0 0 6px #999898; 
+}
+.btnvaohoc{
+	margin-bottom: 15px;
+	float: left;
+}
+span.icon{
+	line-height: 34px;
+	color: #FB6A00;
+	font-size: 12px;
+	padding-left:22px;
+}
+
+/*file index2*/
+.tieudebai p{
+	color: #fff;
+    padding: 13px;
+    font-family: Tahoma;
+    text-transform: uppercase;
+    background: rgb(10, 99, 99);
+    border: 1px solid #fff; 	
+    font-weight: bold;
+    margin-bottom: 0;
+    border-radius: 3px;
+}
+.video{
+	margin:15px; 
+	padding-bottom: 0;
+}
+.menu{
+	display: flex;
+	justify-content: space-between;
+	background: #0A6363;
+	border: 1px solid #fff;
+	border-radius: 3px;
+}
+.menu i {
+    font-size: 30px;
+    color: #fff;
+    padding: 10px 15px;
+}
+.tieudebai span{
+	padding-right: 5px;
+}
+#danhsachbaihoc{
+	border: 1px solid #000;
+	overflow: auto;
+	height: 673px;
+}
+#danhsachbaihoc li{
+	list-style: none;
+}
+#danhsachbaihoc li p{
+	padding: 15px;
+	display: block;
+	border-bottom: 1px solid #ccc;
+	cursor: pointer;
+	margin-bottom: 0;
+}
+#danhsachbaihoc li p:hover{
+	text-decoration: none;
+	background: #ccc;
+}
+#danhsachbaihoc li p:after{
+	color: red;
+}
+#danhsachbaihoc li p i{
+	padding-right: 5px;
+}
+.active{
+    background-color: #ccc;
+}
